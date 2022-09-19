@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color:rgb(30, 30, 39);
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.menu {
+    border: 1px solid;
+    width: 900px;
+}
