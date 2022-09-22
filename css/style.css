@@ -14,3 +14,93 @@
     border: 1px solid;
     width: 900px;
 }
+.menu-container {
+    display: flex;
+    justify-content: center;
+    
+}
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+.links {
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+.login {
+    margin-left: 20px;
+}
+.header-container {
+    color: pink;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo,
+.social,
+.subscribe {
+    border: 1px solid #5995DA;
+}
+.photo-cont {
+    display: flex;
+    justify-content: center;
+}
+.photo-grid {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+.photo {
+    border: 1 px solid #fff;
+    width: 320px;
+    height: 320px;
+}
+.photo1 {
+    order: 1;
+}
+.last-item {
+    order: -1;
+}
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item {
+    border: 1px solid #fff;
+    background-color: rgb(92, 106, 235);
+    height: 200px;
+    flex: 1;
+}
+.f3 {
+    flex: initial;
+    background-color: rgb(29, 189, 114);
+    width: 300px;
+}
+.signup {
+    margin-left: auto;
+}
+.subscribe {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    
+}
